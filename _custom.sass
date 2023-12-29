@@ -1,0 +1,26 @@
+=breakpoint($size)
+  //min-width -->  igual o superior a $size
+  //min-width -->  a partir de $size
+  @media only screen and (min-width: $size)
+    @content
+
+=break-after($size)
+  +breakpoint($size+1)
+    @content
+	
+	
+=link-colors($normal, $visited, $hover, $active, $focus)
+  color: $normal
+  &:visited
+    color: $visited
+  &:hover
+    color: $hover
+  &:active
+    color: $active
+  &:focus
+    color: $focus
+
+=transition($property, $duration: 0.2s, $function: ease)
+  transition: $property $duration $function
+
+    

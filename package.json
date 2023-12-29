@@ -1,0 +1,19 @@
+{
+  "name": "franciscolemos.com",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "Standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lemos/lemos.github.io.git"
+  },
+  "author": "Francisco Lemos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemos/lemos.github.io/issues"
+  },
+  "homepage": "https://github.com/lemos/lemos.github.io#readme"
+}
